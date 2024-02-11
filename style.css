@@ -1,0 +1,28 @@
+* {
+	font-family: "DM Sans", sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-brand span {
+	color: #d8ddef;
+}
+
+#contactButton {
+	border: 2px solid #21d19f;
+	color: #21d19f !important;
+	padding: 5px 20px;
+	border-radius: 12px;
+}
+
+#contactButton:hover {
+	background-color: #21d19f;
+	color: #fff !important;
+}
+
+.navbar-toggler {
+	border: none;
+}
