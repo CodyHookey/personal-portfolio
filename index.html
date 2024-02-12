@@ -6,22 +6,106 @@
 		<title>Cody Hookey</title>
 		<!-- Bootstrap -->
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
-			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous"
 		/>
 		<script
 			src="https://kit.fontawesome.com/e067495424.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link href="style.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
+		<nav class="navbar bg-white fixed-top navbar-expand-md">
+			<div class="container-fluid">
+				<a class="navbar-brand fs-4" href="#">CodyHookey<span>.dev</span></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"
+					aria-label="Toggle navigation"
+				>
+					<span><i class="fa-solid fa-bars" style="color: #45b69c"></i></span>
+				</button>
+				<div
+					class="offcanvas offcanvas-start"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
+				>
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+							CodyHookey<span>.dev</span>
+						</h5>
+						<button
+							type="button"
+							class="btn"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						>
+							<span
+								><i class="fa-solid fa-xmark fa-lg" style="color: #45b69c"></i
+							></span>
+						</button>
+					</div>
+					<div class="offcanvas-body">
+						<ul
+							class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center"
+						>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" aria-current="page" href="#nav"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" href="#aboutPage">About</a>
+							</li>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" href="#skillsPage">Skills</a>
+							</li>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" href="#projectsPage">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link text-dark"
+									id="contactButton"
+									href="#contactPage"
+									>Contact</a
+								>
+							</li>
+							<hr />
+							<li class="d-block d-md-none">
+								<span
+									><a
+										href="https://www.linkedin.com/in/cody-hookey-13722b171/"
+										target="_blank"
+										><i class="fa-brands fa-linkedin-in fa-lg me-2"></i></a
+								></span>
+								<span
+									><a href="https://github.com/CodyHookey" target="_blank"
+										><i class="fa-brands fa-github fa-lg"></i></a
+								></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
 		<!-- JavaScript Bundle with Popper -->
 		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 			crossorigin="anonymous"
 		></script>
 	</body>
