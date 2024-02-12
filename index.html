@@ -6,9 +6,9 @@
 		<title>Cody Hookey</title>
 		<!-- Bootstrap -->
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
-			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous"
 		/>
 		<script
@@ -24,46 +24,69 @@
 		<link href="style.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<nav id="nav" class="navbar navbar-expand-md navbar-light">
+		<nav class="navbar bg-body-tertiary fixed-top navbar-expand-md">
 			<div class="container-fluid">
 				<a class="navbar-brand fs-4" href="#">CodyHookey<span>.dev</span></a>
 				<button
-					class="navbar-toggler my-auto"
+					class="navbar-toggler"
 					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"
 					aria-label="Toggle navigation"
 				>
 					<span><i class="fa-solid fa-bars" style="color: #45b69c"></i></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto mb-lg-0 my-auto">
-						<li class="nav-item me-4">
-							<a class="nav-link text-dark" aria-current="page" href="#nav"
-								>Home</a
-							>
-						</li>
-						<li class="nav-item me-4">
-							<a class="nav-link text-dark" href="#about">About</a>
-						</li>
-						<li class="nav-item me-4">
-							<a class="nav-link text-dark" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" id="contactButton" href="#contact"
-								>Contact</a
-							>
-						</li>
-					</ul>
+				<div
+					class="offcanvas offcanvas-start"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
+				>
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+							CodyHookey<span>.dev</span>
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" aria-current="page" href="#nav"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" href="#aboutPage">About</a>
+							</li>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" href="#skillsPage">Skills</a>
+							</li>
+							<li class="nav-item me-md-4 mb-1">
+								<a class="nav-link text-dark" href="#projectsPage">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link text-dark"
+									id="contactButton"
+									href="#contactPage"
+									>Contact</a
+								>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</nav>
 		<!-- JavaScript Bundle with Popper -->
 		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 			crossorigin="anonymous"
 		></script>
 	</body>

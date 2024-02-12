@@ -3,24 +3,31 @@
 }
 
 /* navbar */
-.navbar-brand {
+.navbar-brand,
+.offcanvas-title {
 	font-weight: 700;
 }
 
-.navbar-brand span {
+.navbar-brand span,
+.offcanvas-title span {
 	color: #d8ddef;
 }
 
-#contactButton {
-	border: 2px solid #21d19f;
+.nav-link:hover {
 	color: #21d19f !important;
-	padding: 5px 20px;
-	border-radius: 12px;
 }
 
-#contactButton:hover {
-	background-color: #21d19f;
-	color: #fff !important;
+@media (min-width: 768px) {
+	#contactButton {
+		border: 2px solid #21d19f;
+		color: #21d19f !important;
+		padding: 5px 20px;
+		border-radius: 12px;
+	}
+	#contactButton:hover {
+		background-color: #21d19f;
+		color: #fff !important;
+	}
 }
 
 .navbar-toggler {
