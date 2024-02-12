@@ -1,6 +1,6 @@
 * {
 	font-family: "DM Sans", sans-serif;
-	color: #3c3e49 !important;
+	color: #29292e;
 }
 
 .nav-link {
@@ -18,7 +18,7 @@
 
 .navbar-brand span,
 .offcanvas-title span {
-	color: #d8ddef !important;
+	color: #c8ccd8 !important;
 }
 
 .nav-link:hover {
@@ -52,4 +52,51 @@
 nav .fa-brands,
 nav .fa-solid {
 	color: #21d19f !important;
+}
+
+/* Hero */
+.symbols {
+	color: #21d19f;
+}
+
+#heroContainer {
+	height: 500px;
+}
+
+#heroTitle {
+	letter-spacing: 0.1em;
+}
+
+@media (min-width: 340px) {
+	#heroTitle {
+		border-right: 3px solid;
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: typing 2s steps(27), cursor 0.4s step-end infinite alternate;
+	}
+
+	@keyframes cursor {
+		50% {
+			border-color: transparent;
+		}
+	}
+
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	#heroTitle {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	#heroTitle {
+		font-size: 22px;
+	}
 }
