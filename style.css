@@ -10,15 +10,26 @@
 	transition: transform 0.3s ease-in-out;
 }
 
+.cody_primary {
+	color: #29292e !important;
+}
+
+.cody_gray {
+	color: #c8ccd8 !important;
+}
+
+.cody_lightGreen {
+	color: #21d19f !important;
+}
+
+.cody_darkGreen {
+	color: #45b69c !important;
+}
+
 /* navbar */
 .navbar-brand,
 .offcanvas-title {
 	font-weight: 700;
-}
-
-.navbar-brand span,
-.offcanvas-title span {
-	color: #c8ccd8 !important;
 }
 
 .nav-link:hover {
@@ -49,18 +60,9 @@
 	border: none;
 }
 
-nav .fa-brands,
-nav .fa-solid {
-	color: #21d19f !important;
-}
-
 /* Hero */
-.symbols {
-	color: #21d19f;
-}
-
 #heroContainer {
-	height: 300px;
+	height: 400px;
 }
 
 #heroTitle {
