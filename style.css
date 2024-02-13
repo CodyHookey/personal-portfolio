@@ -110,3 +110,11 @@
 		font-size: 22px;
 	}
 }
+
+#callAction {
+	background: #45b69c;
+}
+
+#callAction:hover {
+	background: #21d19f;
+}
