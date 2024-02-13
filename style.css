@@ -61,8 +61,16 @@
 }
 
 /* Hero */
-#heroContainer {
-	height: 900px;
+
+@media (max-width: 768px) {
+	#heroContainer {
+		height: 768px;
+	}
+}
+@media (min-width: 769px) {
+	#heroContainer {
+		height: 900px;
+	}
 }
 
 #heroTitle {
@@ -101,6 +109,16 @@
 	#heroTitle {
 		font-size: 22px;
 	}
+}
+
+#callAction {
+	background: #45b69c;
+}
+
+#callAction:hover {
+	background: #21d19f;
+	box-shadow: 2px 2px 4px lightgray;
+	cursor: pointer;
 }
 
 /* About */
