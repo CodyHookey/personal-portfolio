@@ -61,8 +61,16 @@
 }
 
 /* Hero */
-#heroContainer {
-	height: 500px;
+
+@media (max-width: 768px) {
+	#heroContainer {
+		height: 768px;
+	}
+}
+@media (min-width: 769px) {
+	#heroContainer {
+		height: 900px;
+	}
 }
 
 #heroTitle {
