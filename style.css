@@ -64,12 +64,12 @@
 
 @media (max-width: 768px) {
 	#heroContainer {
-		height: 768px;
+		height: 650px;
 	}
 }
 @media (min-width: 769px) {
 	#heroContainer {
-		height: 900px;
+		height: 720px;
 	}
 }
 
@@ -122,21 +122,37 @@
 }
 
 /* About */
-.skill-tab {
-	background: #45b69c;
-	color: #fff;
-	margin-right: 1rem;
-	padding: 0.5rem;
-	letter-spacing: 0.05em;
+#aboutBackground {
+	background: #f7f7f7;
 }
 
-.skill-tab:hover {
-	box-shadow: 2px 2px 4px lightgray;
-	cursor: pointer;
-	background: #21d19f;
+#aboutTitle {
+	font-weight: 600;
+	border-bottom-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-bottom: 4px solid;
+	border-image: linear-gradient(#21d19f, #45b69c) 30;
+}
+
+#aboutImage {
+	border-radius: 5px;
+	border-bottom-left-radius: 16px;
+	border-top-right-radius: 16px;
 }
 
 #aboutCard {
+	font-weight: 500;
 	border-bottom-left-radius: 16px;
 	border-top-right-radius: 16px;
+}
+
+.skillCard {
+	background: #45b69c;
+	border-radius: 0.3em;
+}
+
+.skillCard:hover {
+	background: #21d19f;
+	box-shadow: 2px 2px 4px lightgray;
+	cursor: pointer;
 }
