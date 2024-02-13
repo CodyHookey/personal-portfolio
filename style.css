@@ -1,6 +1,6 @@
 * {
 	font-family: "DM Sans", sans-serif;
-	color: #3c3e49 !important;
+	color: #29292e;
 }
 
 .nav-link {
@@ -10,15 +10,26 @@
 	transition: transform 0.3s ease-in-out;
 }
 
+.cody_primary {
+	color: #29292e !important;
+}
+
+.cody_gray {
+	color: #c8ccd8 !important;
+}
+
+.cody_lightGreen {
+	color: #21d19f !important;
+}
+
+.cody_darkGreen {
+	color: #45b69c !important;
+}
+
 /* navbar */
 .navbar-brand,
 .offcanvas-title {
 	font-weight: 700;
-}
-
-.navbar-brand span,
-.offcanvas-title span {
-	color: #d8ddef !important;
 }
 
 .nav-link:hover {
@@ -49,7 +60,45 @@
 	border: none;
 }
 
-nav .fa-brands,
-nav .fa-solid {
-	color: #21d19f !important;
+/* Hero */
+#heroContainer {
+	height: 500px;
+}
+
+#heroTitle {
+	letter-spacing: 0.1em;
+}
+
+@media (min-width: 340px) {
+	#heroTitle {
+		border-right: 3px solid;
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: typing 2s steps(27), cursor 0.4s step-end infinite alternate;
+	}
+
+	@keyframes cursor {
+		50% {
+			border-color: transparent;
+		}
+	}
+
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	#heroTitle {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	#heroTitle {
+		font-size: 22px;
+	}
 }
