@@ -3,6 +3,17 @@
 	color: #29292e;
 }
 
+.cody-tag-hover {
+	background: #45b69c;
+	border-radius: 0.3em;
+}
+
+.cody-tag-hover:hover {
+	background: #21d19f;
+	box-shadow: 2px 2px 4px lightgray;
+	cursor: pointer;
+}
+
 .nav-link {
 	font-family: "DM Sans", sans-serif !important;
 
@@ -111,16 +122,6 @@
 	}
 }
 
-#callAction {
-	background: #45b69c;
-}
-
-#callAction:hover {
-	background: #21d19f;
-	box-shadow: 2px 2px 4px lightgray;
-	cursor: pointer;
-}
-
 @media (min-width: 768px) {
 	#callAction {
 		font-size: 22px;
@@ -150,15 +151,4 @@
 	font-weight: 500;
 	border-bottom-left-radius: 16px;
 	border-top-right-radius: 16px;
-}
-
-.skillCard {
-	background: #45b69c;
-	border-radius: 0.3em;
-}
-
-.skillCard:hover {
-	background: #21d19f;
-	box-shadow: 2px 2px 4px lightgray;
-	cursor: pointer;
 }
