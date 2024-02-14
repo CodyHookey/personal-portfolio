@@ -208,13 +208,16 @@
 	background: #45b69c;
 }
 
+#formCard {
+	border-radius: 16px;
+}
+
 ::placeholder {
 	color: #fff;
-	opacity: 1; /* Firefox */
+	opacity: 1;
 }
 
 ::-ms-input-placeholder {
-	/* Edge 12 -18 */
 	color: #fff;
 }
 
