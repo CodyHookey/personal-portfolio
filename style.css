@@ -166,3 +166,18 @@
 	border-bottom-left-radius: 16px;
 	border-top-right-radius: 16px;
 }
+
+/* Projects */
+
+#projectsSection .card {
+	border-radius: 16px;
+	object-fit: cover;
+	min-height: 600px;
+}
+
+#projectsSection .card-img-top {
+	border-bottom: 8px solid #45b69c;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	object-fit: cover;
+}
