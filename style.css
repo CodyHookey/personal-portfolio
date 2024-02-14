@@ -121,6 +121,12 @@
 	cursor: pointer;
 }
 
+@media (min-width: 768px) {
+	#callAction {
+		font-size: 22px;
+	}
+}
+
 /* About */
 #aboutBackground {
 	background: #f7f7f7;
