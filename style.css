@@ -181,3 +181,53 @@
 	border-top-right-radius: 16px;
 	object-fit: cover;
 }
+
+/* Contact */
+
+#contactBackground {
+	background: #f1fffc;
+}
+
+.input-group-text {
+	box-shadow: inset 0px 0px 5px #29292e;
+}
+
+#fname {
+	background: #45b69c;
+}
+
+#lname {
+	background: #45b69c;
+}
+
+#email {
+	background: #45b69c;
+}
+
+#subject {
+	background: #45b69c;
+}
+
+#formCard {
+	border-radius: 16px;
+}
+
+::placeholder {
+	color: #fff;
+	opacity: 1;
+}
+
+::-ms-input-placeholder {
+	color: #fff;
+}
+
+input,
+select,
+textarea {
+	color: #fff;
+}
+
+textarea:focus,
+input:focus {
+	color: #fff;
+}
