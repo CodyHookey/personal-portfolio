@@ -231,3 +231,14 @@ textarea:focus,
 input:focus {
 	color: #fff;
 }
+
+/* Footer */
+footer {
+	background: #45b69c;
+}
+
+#footerTitle {
+	font-weight: 700;
+	text-decoration: none;
+	border-top: 2px solid #fff;
+}
